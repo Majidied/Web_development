@@ -1,0 +1,8 @@
+<!ELEMENT examen (titre,date,questions)>
+<!ATTLIST examen code CDATA #REQUIRED>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT date EMPTY>
+<!ATTLIST date mois (jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec) #REQUIRED annee CDATA #REQUIRED>
+<!ELEMENT questions (question,question,question,question,question,question?)>
+<!ELEMENT question (partie+)>
+<!ELEMENT partie EMPTY> 
