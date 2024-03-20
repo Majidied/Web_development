@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Contacts>
@@ -12,8 +11,7 @@
 		<Email>jsmith@yahoo.com</Email>
 		<Address type="home">
 			<Company>
-			<Street>23 Main St</Company>
-			</Street>
+			<Street>23 Main St</Street></Company>
 			<City>Dublin</City>
 			<Postcode>4</Postcode>
 			<Country/>
@@ -29,7 +27,7 @@
 		<Firstname>Tom</Firstname>
 		<Lastname>Dunne</Lastname>
 		<Company>Today FM</Company>
-    	<Position/>
+    	<position/>
 		<Email>tom.dunne@todayfm.com</Email>
 	</Person>
 </Contacts>

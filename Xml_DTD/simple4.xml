@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" Stadalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<-- Attention il y a des erreurs -->
+<!-- Attention il y a des erreurs -->
 
-<Contacts number=43>
+<Contacts number="43">
 	<Person>
 		<Firstname>John</Firstname>
 		<Lastname>Smith</Lastname>

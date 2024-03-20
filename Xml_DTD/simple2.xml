@@ -1,4 +1,4 @@
-<?xml version="1.0"? encoding="UTF-8">
+<?xml version="1.0" encoding="UTF-8"?>
 
 <Contacts>
 	<Person>
@@ -7,7 +7,7 @@
 		<Birthday>1965/03/02</Birthday>
 		<Company>IBM</Company>
 		<Position>CEO</Position>
-		<Email>jsmith@ibm.com<Email/>
+		<Email>jsmith@ibm.com</Email>
 		<Email>jsmith@yahoo.com</Email>
 	</Person>
 	<Person>
