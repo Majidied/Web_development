@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="wg_court.xsl"?>
+<!DOCTYPE gdt SYSTEM "wg.dtd">
+
+<gdt month="Février" year="2004">
+  <expose day="5">
+    <speaker>Nicolas Baudru</speaker>
+    <title>Netcharts et HMSC</title>
+    <time>12h45</time>
+    <salle>102</salle>
+  </expose>
+
+</gdt>

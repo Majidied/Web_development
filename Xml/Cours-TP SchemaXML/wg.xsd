@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xsd:element name="gdt">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="unbounded" ref="expose"/>
+      </xsd:sequence>
+      <xsd:attribute name="month" type="xsd:string"/>
+      <xsd:attribute name="year" type="xsd:integer"/>      
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="expose">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element minOccurs="0" ref="comment"/>
+	<xsd:sequence minOccurs="0">
+	  <xsd:element ref="speaker"/>
+	  <xsd:element ref="title"/>
+	  <xsd:element ref="time"/>
+	  <xsd:element ref="salle"/>
+	</xsd:sequence>
+      </xsd:sequence>
+      <xsd:attribute name="day" type="xsd:integer"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="comment" type="xsd:string"/>
+  <xsd:element name="speaker" type="xsd:string"/>
+  <xsd:element name="title" type="xsd:string"/>
+  <xsd:element name="time" type="xsd:string"/>
+  <xsd:element name="salle" type="xsd:integer"/>
+</xsd:schema>

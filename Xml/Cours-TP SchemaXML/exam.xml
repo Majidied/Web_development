@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<!-- exemple de fichier examen -.- exercice 4 -->
+
+<!DOCTYPE examen SYSTEM "exam.dtd">
+
+<examen code="coursXML">
+  <titre>Outils et documents XML</titre>
+  <date mois="sep" annee="2008" />
+  <questions>
+    <question><partie /></question>
+    <question><partie /></question>
+    <question><partie /></question>
+    <question><partie /></question>
+    <question><partie /></question>
+  </questions>
+</examen>

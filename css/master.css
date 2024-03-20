@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 95%;
+    height: 150px;
+    background-color: rgb(101, 101, 101);
+    margin: auto;
+    margin-top: 15px;
+    border: 2px solid black;
+    padding: 20px;
+    position: relative;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+h4{
+    color: aliceblue;
+    font-size: 22px;
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+}
+.link{
+    width: 90%;
+    background-color: darkgray;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    width: 280px;
+    text-align: center;
+    border-left: 2px solid black;
+    font-size: 20px;
+}
+section{
+    width: 95%;
+    height: 300px;
+    background-color: darkgrey;
+    margin: auto;
+    padding: 5px;
+}
+h3{
+    margin: 10px 60px;
+    font-size: 20px;
+}
+section p{
+    margin: 0 10px;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+#iid{
+    width: 95%;
+    margin: auto;
+    background-color: rgb(24, 22, 22);
+    margin-top: 10px;
+    text-align: end;
+    color: azure;
+    padding: 5px;
+}
+::selection{
+    border-radius: 10px;
+    background-color: rgb(0, 62, 64);
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width:390px) {
+    header{
+        width: 95%;
+        display: block;
+        margin: 10px;
+        font-size: 18px;
+    }
+    .link{
+        display: flex;
+        margin: auto;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .link a{
+        text-align: center;
+        margin-left:10px ;
+        width: 90px;
+    }
+    section{
+        height: 100vh;
+    }
+    h3{
+        text-align: center;
+    }
+    .section2{
+        display: block;
+    }
+
+}

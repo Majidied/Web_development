@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<movie>
+  <title>Grand Prix</title>
+  <year>1966</year>
+  <url>http://www.imdb.com/Title?GrandPrix</url>
+  <summary by="Damian_Penny">
+American Grand Prix driver Pete Aron is fired by his Jordan-BRM racing
+  team after a crash at Monaco that injures his British teammate,
+  Scott Stoddard. While Stoddard struggles to recover, ...
+  </summary>
+  <filmography Crew="verified as complete">
+    <Producers>
+      <name>Kirk Douglas (I)</name><attr>(executive producer)</attr>
+      <name>Edward Lewis (I)</name><attr>(producer)</attr>
+    </Producers>
+    <Director>
+      <name>John Frankenheimer</name>
+    </Director>
+    <Writers order="alphabetical">
+      Dan Chang (additional dialogue)
+      Geda Bradley Mathews
+    </Writers>
+    <Composer>
+      <name>Maurice Jarre (I)</name>
+    </Composer>
+    <Editors>
+      <name>Dominic Auhill</name><attr>(as Stewart Linder)</attr>
+      <name>Valerie Beda</name>
+    </Editors>
+    <cast order="credits" status="verified">
+      <name>James Garner</name>
+      <cname>Pete Aron</cname>
+
+      <name>Yves Montand</name>
+      <cname>Jean-Pierre Sarti</cname>
+
+      <name>Donald O'Brien (I)</name><attr>(as Donal O'Brien)</attr>
+      <cname>Wallace Bennett</cname>
+    </cast>
+    <remainder order="alphabetical">
+      <name>Bob Bondurant</name><attr>(uncredited)</attr>
+      <cname>Grand Prix driver</cname>
+
+      <name>Gilberto Mazzi</name><attr>(uncredited)</attr>
+      <cname>Rafael</cname>
+    </remainder>
+    <Miscellaneous>
+      <name>Bruno Aclin</name><attr>(racing driver)</attr>
+      <name>Maurice Jarre (I)</name><attr>(conductor)</attr>
+      <name>Carroll Shelby</name><attr>(technical advisor)</attr>
+    </Miscellaneous>
+  </filmography>
+</movie>
