@@ -1,0 +1,51 @@
+<?xml version="1.0"  ?>
+
+<!DOCTYPE biblio [
+<!ELEMENT person     ((name, (profession+)), friend?)>
+  <!ATTLIST person xmlns:xlink 
+             CDATA #FIXED "http://www.w3.org/1999/xlink">
+  <!ELEMENT biblio     (person*)>
+  <!ELEMENT name       (first_name, last_name)>
+  <!ELEMENT first_name (#PCDATA)>
+  <!ELEMENT last_name  (#PCDATA)>
+  <!ELEMENT profession (#PCDATA)>
+  <!ATTLIST name SSN ID #REQUIRED>
+ 
+  <!ELEMENT friend EMPTY>
+  <!ATTLIST friend img NMTOKEN #IMPLIED>
+  <!ATTLIST friend ref IDREF #IMPLIED>
+  <!ENTITY  start "<biblio>">
+  <!ENTITY   end   "</biblio>">
+ ]>
+ 
+<biblio>
+<person>
+  <name SSN="genie">
+    <first_name>Alan</first_name>
+    <last_name>Turing</last_name>
+  </name>
+  <profession>computer scientist</profession>
+  <profession>mathematician</profession>
+  <profession>cryptographer</profession>
+  <friend ref="a_7256"></friend>
+</person>
+
+<person>
+  <name SSN="b_8888">
+    <first_name>Alonzo</first_name>
+    <last_name>Church</last_name>
+  </name>
+  <profession>computer scientist</profession>
+  <profession>logician</profession>
+  <friend ref="b_8888"/>
+</person>
+
+<person>
+  <name SSN="a_7256">
+    <first_name>Lucien</first_name>
+    <last_name>TinTin</last_name>
+  </name>
+  <profession></profession>
+  <friend ref="a_7256"/> 
+</person>
+</biblio>
