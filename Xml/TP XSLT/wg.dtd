@@ -1,0 +1,10 @@
+<!ELEMENT gdt (expose+)>
+<!ATTLIST gdt month NMTOKEN #REQUIRED>
+<!ATTLIST gdt year NMTOKEN #REQUIRED>
+<!ELEMENT expose (speaker?,title?,time?,salle?,comment?)>
+<!ATTLIST expose day NMTOKEN #REQUIRED>
+<!ELEMENT speaker (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT salle (#PCDATA)>
+<!ELEMENT comment (#PCDATA)>

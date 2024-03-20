@@ -11,9 +11,15 @@
   </expose>
 
   <expose day="12"> 
-    <comment>Exposé proposé par François Denis, équipe BDA</comment>
+    <speaker></speaker>
+    <title></title>
+    <time></time>
+    <salle></salle>
+    <comment></comment>
+  </expose>
+    <comment>Exposï¿½ proposï¿½ par Franï¿½ois Denis, ï¿½quipe BDA</comment>
     <speaker>Liva Ralaivola</speaker>
-    <title>apprentissage statistique, noyaux et applications à la
+    <title>apprentissage statistique, noyaux et applications ï¿½ la
     bio-informatique</title>  
     <time>14h</time>
     <salle>104</salle>
